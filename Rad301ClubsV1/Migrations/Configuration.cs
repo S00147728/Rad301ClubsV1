@@ -84,7 +84,7 @@ namespace Rad301ClubsV1.Migrations
             {
                 manager.AddToRoles(clubAdmin.Id, new string[] { "ClubAdmin" });
             }
-            seedStudents(context);
+            //seedStudents(context);
         }
 
         public void seedStudents(ApplicationDbContext current)

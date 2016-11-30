@@ -186,8 +186,10 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\ClubsController.cs" />
+    <Compile Include="Controllers\ClubsEventsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MembersController.cs" />
     <Compile Include="Controllers\StudentsController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -288,6 +290,19 @@
     <Content Include="Views\Students\Details.cshtml" />
     <Content Include="Views\Students\Edit.cshtml" />
     <Content Include="Views\Students\Index.cshtml" />
+    <Content Include="Views\Clubs\MemberDetails.cshtml" />
+    <Content Include="Views\ClubsEvents\Create.cshtml" />
+    <Content Include="Views\ClubsEvents\Delete.cshtml" />
+    <Content Include="Views\ClubsEvents\Details.cshtml" />
+    <Content Include="Views\ClubsEvents\Edit.cshtml" />
+    <Content Include="Views\ClubsEvents\Index.cshtml" />
+    <Content Include="Views\Members\Create.cshtml" />
+    <Content Include="Views\Members\Delete.cshtml" />
+    <Content Include="Views\Members\Details.cshtml" />
+    <Content Include="Views\Members\Edit.cshtml" />
+    <Content Include="Views\Members\Index.cshtml" />
+    <Content Include="Views\Members\_ClubMembers.cshtml" />
+    <Content Include="Views\ClubsEvents\_ClubEvents.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
